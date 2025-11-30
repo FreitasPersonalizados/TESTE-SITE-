@@ -1,0 +1,21 @@
+<!DOCTYPE html><html><head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>Painel Admin</title><link rel='stylesheet' href='css/styles.css'>
+</head><body>
+
+<h1 style='text-align:center'>Painel Administrativo</h1>
+
+<div style='padding:20px'>
+<h2>Adicionar Produto</h2>
+Nome: <input id='name'><br><br>
+Preço: <input id='price' type='number'><br><br>
+Imagem (caminho ex: img/copo.jpg): <input id='image'><br><br>
+Kits (ex: 1,5,10): <input id='kits'><br><br>
+<button onclick='addProduct()'>Salvar Produto</button>
+
+<h2>Produtos Cadastrados</h2>
+<ul id='list'></ul>
+</div>
+
+<script src='js/admin.js'></script>
+</body></html>

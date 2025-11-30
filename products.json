@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Caneca Premium",
+        "price": 29.9,
+        "kits": [
+            1,
+            5,
+            10
+        ],
+        "image": "img/caneca.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Chaveiro Acr\u00edlico",
+        "price": 8.5,
+        "kits": [
+            5,
+            10,
+            20
+        ],
+        "image": "img/chaveiro.jpg"
+    }
+]
